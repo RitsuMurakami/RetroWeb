@@ -1,0 +1,76 @@
+body{
+    font-family: monospace;
+    background-image: url(patarn.gif);
+}
+
+p{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu{
+  text-align: center;
+}
+
+.text{
+  animation: flash 0.5s linear infinite;
+  margin:20px;
+  font-size:30px;
+	font-weight: bold;
+}
+
+@keyframes flash {
+  0%,35%,60%,100%{
+    opacity: 1;
+  }
+
+  25%{
+    opacity: 1;
+    color:#7fff00;
+  }
+  
+  50%{
+    opacity: 1;
+    color:#0091EA;
+  }
+  
+  75%{
+    opacity: 1;
+    color:#ff1493;
+  }
+  
+}
+
+.scroll {
+  margin     : auto;
+  width      : 96%;
+  font-size  : 300%;
+  line-height: 2.0em;
+  text-align : center;
+  color      : #2f01fc;
+  background : rgba(255, 255, 255, 0);
+  overflow   : hidden;
+}
+.scroll span{
+  display     : inline-block;
+  padding-left: 100%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation   : scrollAnime 8s linear infinite;
+}
+@keyframes scrollAnime{
+    0% { transform: translateX(30)}
+  100% { transform: translateX(-100%)}
+}

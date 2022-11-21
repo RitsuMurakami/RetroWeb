@@ -1,0 +1,27 @@
+body{
+    background-color:bisque;
+    background-image: url("haike.jpg");
+}
+
+p{
+    text-align: center;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.menu
+{
+    text-align: center;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+    text-align: center;
+}
